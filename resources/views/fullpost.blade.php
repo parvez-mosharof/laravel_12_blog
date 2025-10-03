@@ -86,7 +86,6 @@
         </div>
     </header>
 
-    <!-- Full Post Content -->
     <section class="container full-post">
         <h2>{{ $post->post_title }}</h2>
         <p><small>Posted on {{ $post->created_at->format('F j, Y') }}</small></p>
