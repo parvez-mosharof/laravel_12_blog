@@ -21,7 +21,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white shadow-sm sm:rounded-lg p-6">
                 <h3 class="text-lg font-semibold mb-4">Welcome, {{ auth()->user()->name }}!</h3>
-                <p>You're logged in as a user. Here are the latest posts:</p>
+                <p>You're logged in as a User. Here are the latest posts:</p>
 
                 <div class="mt-6 space-y-4">
                     @forelse($posts as $post)
